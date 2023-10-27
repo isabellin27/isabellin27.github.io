@@ -1,0 +1,107 @@
+header{ /* header of the article */
+    background-color: lightpink; /* Set the background color of the header */
+}
+
+.inside-header{ /* allows Brandeis Logo + rest of the headers to be on the same line */
+    display: flex; 
+}
+
+.images-split{
+    width: 200px;
+    height: auto;
+    padding: 20 px;
+}
+
+img{ /* image of me doing a split */
+    padding: 10px; /* add 10px padding to the image */
+}
+
+
+/* Add padding to left and right of page */
+header,
+nav,
+main,
+footer {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+
+.right{  /* Hope you enjoy shift right*/
+    padding-left: 35px;
+}
+
+nav{ /* navigation bars */
+    overflow: hidden;
+    background-color: rgb(181, 235, 181);;
+    align-items: center;
+    display: flex;
+}
+
+nav a{ /* individual navigation bars */
+    float: left;
+    color: black;
+    margin: 20px;
+    font-size: medium;
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav a:hover { /* change the color of navigations when hovered over */
+    background-color: palevioletred; /* background color to red */
+    color: black; /* text color to black */
+}
+
+
+.container {
+    display: flex;
+}
+  
+.content {
+    flex: 1;
+    background-color: lightblue; /* Add your desired background color */
+    padding: 20px; /* Adjust the padding as needed */
+}
+  
+.image {
+    flex: 1;
+    text-align: right;
+    padding: 20px; /* Adjust the padding as needed */
+}
+  
+  /* Add styling to your image as needed */
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+  
+footer {
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 50px;
+    background: pink;
+    text-align: center;
+}
+
+/* Copyright */
+footer p {
+    margin: 0;
+    line-height: 30px;
+    color: white;
+}
+
+/* Socials icons */
+footer div {
+    flex: 1;
+    text-align: right;
+}
+footer .fa {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+}

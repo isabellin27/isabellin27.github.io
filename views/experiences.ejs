@@ -1,0 +1,36 @@
+
+<div class="container">
+    <section class="content">
+        <h2>Download My Resume</h2>
+        <p>Click the button below to download my resume:</p>
+        
+        <button id="downloadButton">Download Resume</button>
+
+        <script>
+            document.getElementById("downloadButton").addEventListener("click", function() {
+                // Replace the URL below with the actual path to your resume file
+                var resumeUrl = "/images/Isabel_Lin_Resume.pdf";
+
+                // Create a hidden anchor element
+                var a = document.createElement("a");
+                a.style.display = "none";
+                a.href = resumeUrl;
+                a.download = "Isabel_Lin_Resume.pdf"; // Replace with your desired filename
+                document.body.appendChild(a);
+
+                // Trigger a click event on the anchor element to start the download
+                a.click();
+
+                // Remove the anchor element from the DOM
+                document.body.removeChild(a);
+            });
+        </script>
+
+    </section>
+    <section class="content">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQg58t9kPJaA6R1kwy0e5cUMdnrhWkpM7oQUT026ZzI1zEY5dSl_XzZs8wy11mO73T5lGfUJ4hC_aw6/pub?embedded=true"></iframe>
+    </section>
+
+</div>
+
+

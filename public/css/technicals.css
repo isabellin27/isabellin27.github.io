@@ -1,0 +1,11 @@
+.image {
+    flex: 1;
+    text-align: right;
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  /* Add styling to your image as needed */
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }

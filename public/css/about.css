@@ -1,0 +1,12 @@
+.image-container {
+    display: flex;
+    justify-content: space-between; /* or any other alignment that suits your design */
+    align-items: center; /* Center the images vertically within the container */
+}
+
+.image-container img {
+    width: 25%; /* Reduce the width to 25% to make the images smaller */
+    height: auto; /* Maintain the aspect ratio */
+    box-sizing: border-box; /* Optional: This includes padding and border in the width calculation */
+    max-height: 100%; /* Limit the height of images to match the container height */
+}
