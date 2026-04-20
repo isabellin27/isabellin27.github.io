@@ -505,6 +505,11 @@
   margin-top: 4px;
 }
 
+.experience {
+  background: var(--warm-white);
+  padding: 120px 72px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; }
