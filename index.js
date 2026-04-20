@@ -10,6 +10,7 @@ app.set("view engine", "ejs");
 app.use(layouts); // Use express-ejs-layouts middleware first
 
 app.use(express.static("public"));
+app.get('/favicon.ico', (req, res) => res.status(204).end());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(bodyParser.json());
