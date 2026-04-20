@@ -1,2 +1,2 @@
-# isabellin27.github.io
-Deployed here: https://isabellin.vercel.app
+# Personal Website
+https://isabellin.vercel.app
