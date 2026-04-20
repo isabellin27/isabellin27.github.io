@@ -1,2 +1,2 @@
 # isabellin27.github.io
-Deployed here: https://isabellin.vercel.app/#experience
+Deployed here: https://isabellin.vercel.app
