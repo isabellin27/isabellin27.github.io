@@ -478,7 +478,8 @@
 
 .exp-bullets li strong {
   color: var(--navy);
-  font-weight: 500;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .exp-metrics {
